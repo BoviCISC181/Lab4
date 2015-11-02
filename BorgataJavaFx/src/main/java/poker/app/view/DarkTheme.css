@@ -1,5 +1,6 @@
 .background {
-    -fx-background-color: #1d1d1d;
+	background-image: "src/main/resources/res/img/poker-table-felt.png";
+    -fx-background-color: #007708;
 }
 
 .label {

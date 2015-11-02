@@ -5,13 +5,17 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.BorderPane?>
 
-<BorderPane prefHeight="630.0" prefWidth="872.0" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="poker.app.view.RootLayoutController">
+<BorderPane prefHeight="600.0" prefWidth="1070.0" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="poker.app.view.RootLayoutController">
    <top>
       <MenuBar BorderPane.alignment="CENTER">
         <menus>
             <Menu fx:id="mnuGame" mnemonicParsing="false" text="Game">
               <items>
-                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="5 Card Joker Poker" />
+                  <MenuItem mnemonicParsing="false" text="5 Card Dueces Wild" />
+                  <MenuItem mnemonicParsing="false" text="7 Card Draw" />
+                  <MenuItem mnemonicParsing="false" text="Texas Hold'em" />
+                  <MenuItem mnemonicParsing="false" text="Omaha" />
               </items>
             </Menu>
           <Menu mnemonicParsing="false" text="File">
