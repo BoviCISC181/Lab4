@@ -11,11 +11,11 @@
         <menus>
             <Menu fx:id="mnuGame" mnemonicParsing="false" text="Game">
               <items>
-                <MenuItem mnemonicParsing="false" text="5 Card Joker Poker" />
-                  <MenuItem mnemonicParsing="false" text="5 Card Dueces Wild" />
-                  <MenuItem mnemonicParsing="false" text="7 Card Draw" />
-                  <MenuItem mnemonicParsing="false" text="Texas Hold'em" />
-                  <MenuItem mnemonicParsing="false" text="Omaha" />
+                  <RadioMenuItem mnemonicParsing="false" text="5 Card Joker Poker" />
+                  <RadioMenuItem mnemonicParsing="false" text="5 Card Dueces Wild" />
+                  <RadioMenuItem mnemonicParsing="false" text="7 Card Draw" />
+                  <RadioMenuItem mnemonicParsing="false" text="Texas Hold'em" />
+                  <RadioMenuItem mnemonicParsing="false" text="Omaha" />
               </items>
             </Menu>
           <Menu mnemonicParsing="false" text="File">
@@ -30,11 +30,6 @@
             <Menu mnemonicParsing="false" text="Statistics">
               <items>
                 <MenuItem mnemonicParsing="false" onAction="#handleShowBirthdayStatistics" text="Show Statistics" />
-              </items>
-            </Menu>
-            <Menu mnemonicParsing="false" text="Help">
-              <items>
-                <MenuItem mnemonicParsing="false" text="Action 1" />
               </items>
             </Menu>
         </menus>
